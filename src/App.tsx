@@ -1,7 +1,9 @@
+import Navbar from "./components/navigation/Navbar";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="px-12 py-8">
+      <Navbar/>
+    </div>
   )
 }
